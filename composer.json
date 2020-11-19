@@ -1,0 +1,21 @@
+{
+    "name": "qiaohuan/ceshi-package",
+    "description": "ceshi-package package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qiaohuan",
+            "email": "shandongqiaohuan@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.0"
+    },
+  "autoload": {
+    "psr-4": {
+      "Flower\\Rose\\": "src/Flower/Rose",
+      "Flower\\Lily\\": "src/Flower/Lily"
+    }
+  }
+}
